@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site voltado músicas online">
+    <meta name="keywords" content="músicas, músicas online, comprar músicas">
+    <meta name="author" content="Matheus A. Lima">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,200;1,400&family=Frank+Ruhl+Libre:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="fixed-top">
+        <nav>
+            <div class="container">
+                <div class="row" style="padding:25px;">
+                    <div class="col">
+                        <figure id="logoHeader">
+                            <img src="https://seeklogo.com/images/S/spotify-2015-logo-560E071CB7-seeklogo.com.png" class="img-fluid" alt="Logo Spotfy">
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <a href="#">MPB</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Rock</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Eletrônica</a>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Pesquisar">
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-light">Pesquisar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style="height: 13vh; width: 100%; background-color: black;"></div>
+    <div class="container">
+        <h1>Estilos musicais</h1>
+        <section id="mpb">
+            <h2>MPB</h2>
+            <figure>
+                <img src="https://cutt.ly/Ch0XtLW" alt="Frejat" class="img-fluid">
+                <figcaption>
+                    <audio controls>
+                        <source src="./musicas/mpb/Segredos - Frejat (Stefano Mota).mp3">
+                    </audio>
+                </figcaption>
+            </figure>
+        </section>
+        <section id="rock">
+            <h2>Rock</h2>
+            <figure>
+                <img src="https://cutt.ly/fh0CVTi" alt="Pink Floyd" class="img-fluid">
+                <figcaption>
+                    <audio controls>
+                        <source src="./musicas/rock/Pink Floyd - Comfortably numb.mp3">
+                    </audio>
+                </figcaption>
+            </figure>
+        </section>
+        <section id="eletronica">
+            <h2>Eletrônica</h2>
+            <figure>
+                <img src="https://cutt.ly/5hB96a6" alt="Vintage Culture" class="img-fluid">
+                <figcaption>
+                    <audio controls>
+                        <source src="./musicas/eletronica/Vintage Culture, Rooftime - I Will Find (Official Music Video).mp3">
+                    </audio>
+                </figcaption>
+            </figure>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <nav class="col-lg">
+                <div class="row">
+                    <div class="col">
+                        <figure id="logoAnimada">
+                            <img src="https://i.pinimg.com/originals/27/6f/27/276f273d11f8b9dbc0a9c55bb38ea8c6.gif" alt="logo animada">
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <dl>
+                            <dt>Empresa</dt>
+                            <a href="#"><dd>Sobre</dd></a>
+                            <a href="#"><dd>Empregos</dd></a>
+                            <a href="#"><dd>For the Record</dd></a>
+                        </dl>
+                    </div>
+                    <div class="col-4">
+                        <dl>
+                            <dt>Comunidade</dt>
+                            <a href="#"><dd>Para artistas</dd></a>
+                            <a href="#"><dd>Desenvolvedores</dd></a>
+                            <a href="#"><dd>Publicidade</dd></a>
+                            <a href="#"><dd>Investidores</dd></a>
+                            <a href="#"><dd>Fornecedores</dd></a>
+                        </dl>
+                    </div>
+                    <div class="col-4">
+                        <dl>
+                            <dt>Links úteis</dt>
+                            <a href="#"><dd>Suporte</dd></a>
+                            <a href="#"><dd>Player da Web</dd></a>
+                            <a href="#"><dd>Aplicativo móvel grátis</dd></a>
+                            <a href="#"><dd>Retrospectiva 2020</dd></a>
+                        </dl>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <!--Script do Bootstrap-->
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <!--Script JS-->
+    <script src="./js/script.js"></script>
+</body>
+</html>

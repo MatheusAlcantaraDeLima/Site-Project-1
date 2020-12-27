@@ -1,0 +1,92 @@
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+/*Estilo Header*/
+header{
+    width: 100vw;
+    height: 13vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+header nav a{
+    color: white;
+}
+header nav a:hover{
+    color: #1DB954;
+}
+figure#logoHeader{
+    margin-top: -15px;
+}
+figure#logoHeader img{
+    box-shadow: none;
+    height: 8vh;
+    width: 4vw;
+}
+/*Corpo*/
+div{
+    text-align: center;
+}
+section{
+    position: relative;
+    width: 100%;
+}
+figure{
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+figure img{
+    height: inherit;
+    width: inherit;
+    box-shadow: 3px 3px 7px grey;
+}
+figure figcaption{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.7s;
+}
+figure figcaption:hover{
+    transition: 0.7s;
+    opacity: 1;
+}
+figure figcaption audio{
+    position: relative;
+    top: 123px;
+}
+figure figcaption:hover{
+    display: block;
+}
+/*Estilo FOOTER*/
+footer{
+    position: absolute;
+    background-color: black;
+    padding: 50px 0px 20px;
+    height: 550px;
+    width: 100%;
+}
+dt{
+    color: grey;
+    text-align: justify;
+}
+dd{
+    color: white;
+    text-align: justify;
+}
+dd:hover{
+    color: #1DB954;
+}
+figure#logoAnimada{
+    height: 150px;
+    width: 200px;
+}
+figure#logoAnimada img{
+    box-shadow: none;
+}
+a:hover{
+    text-decoration: none;
+}
